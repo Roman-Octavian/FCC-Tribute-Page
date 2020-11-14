@@ -16,6 +16,12 @@
     text-align: center;
     padding-top: 15px;
   }
+  h3 {
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+  }
   img {
     display: block;
     max-width: 100%;
@@ -33,6 +39,22 @@
     text-align: center;
     padding-bottom: 30px;
   }
+  .tribute-wiki {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F1F1F1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .quote {
+    font-family: "Dancing Script";
+    font-size: 25px;
+    text-align: center;
+  }
   </style>
 <main id="main">
 <body>
@@ -43,17 +65,47 @@
   <figure>
   <div id="img-div">
     <img id="image" src="https://i.ibb.co/0CnHmx9/Socrates.jpg" alt="Statue of Socrates">
-    <figcaption id="img-caption">A marble statue of Socrates immersed in thought.</figcaption>
+    <figcaption id="img-caption"><em>A marble statue of Socrates immersed in thought</em></figcaption>
   </div>
   </figure>
 </div>
 <div id="tribute-info">
   <h2>About Socrates:</h2>
-  <p>Socrates was a Greek philosopher born in Athens and thought to have lived from 470 BC until 399 BC. He is
-    commonly regarded as the main founder of Western Philosophy. All of which is known of Socrates comes from
-    other philosophers who mentioned him in their works, such as his disciple, Plato. This is because he left little to nothing
-    in writing,</p>
+  <p>Socrates is a Greek philosopher born in Athens and thought to have lived from 470 BC until 399 BC. He is
+    commonly regarded as the main founder of Western Philosophy. While Socrates himself left no written material,
+    other philosophers, such as his disciple Plato, have included him in their works.</p>
+
+  <p> Some of Socrates' achievements include:</p>
+  <ul>
+    <li>First to introduce morality into Western philosophy.</li>
+    <li>Developed the <em>Socratic Method.</em></li>
+    <li>Known for his fearlessness, Socrates saved Alcibiades in battle, a well-known Athenian general.</li>
+    <li>Became famous amongst his contemporaries, who thought Socrates was the wisest in all of Athens.</li>
+  </ul>
+
+  <p>The Socratic Method consisted of:</p>
+  <ul>
+    <li><em>Irony:</em> Socrates proves someone wrong by making their preconceptions and flawed logic apparent.</li>
+    <li><em>Maieutics:</em> Socrates generates what he considered <em>true knowledge</em> by asking astute questions
+      to the same person who was proven wrong through <em>irony</em>.</li>
+  </ul>
+
+  <p>Socrates was eventually detained by the second-generation Sophists, who wrongfully accused him of impiety and of corrupting the minds
+    of the young, and sentenced him to death. Although he would've been spared if only he admitted that the Sophists were right,
+    Socrates refused to capitulate and drank a fatal mixture containing poisonous hemlock during his incarceration, ending his own life.
+
+  <h3>Quotes:</h3>
+  <p class="quote">One thing only I know, and that is that I know nothing.</p>
+
+  <p class="quote">An unexamined life is not worth living.</p>
+
+  <p class="quote">I am the wisest man alive, for I know one thing, and that is that I know nothing.</p>
 </div>
+
+<footer>
+  <p class="tribute-wiki">If you want to know more about this amazing philosopher don't forget to check out his
+  <a id="tribute-link" href="https://en.wikipedia.org/wiki/Socrates" target="_blank">Wikipedia Entry</a></p>
+</footer>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </head>
