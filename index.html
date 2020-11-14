@@ -8,16 +8,23 @@
     font-family: monospace;
     font-size: 50px;
     text-align: center;
+    padding-top: 15px;
   }
-  .statue {
+  img {
     display: block;
-    width: 500px;
+    width: 575px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px;
   }
   .header-img-div {
     background-color: #F1F1F1;
+  }
+  figcaption {
+    font-family: inherit;
+    text-align: center;
+    padding-bottom: 20px;
   }
   </style>
 <main id="main">
@@ -26,9 +33,12 @@
   <header>
     <h1>A Tribute to Socrates</h1>
   </header>
+  <figure>
   <div id="img-div">
-    <img class="statue" src="https://www.greeka.com/photos/greece-history/famous-people/socrates/hero/socrates-1280.webp" alt="Statue of Socrates">
+    <img id="image" src="https://i.ibb.co/0CnHmx9/Socrates.jpg" alt="Statue of Socrates">
+    <figcaption id="img-caption">A marble statue of Socrates immersed in thought.</figcaption>
   </div>
+  </figure>
 </div>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
